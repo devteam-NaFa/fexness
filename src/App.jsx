@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import TawkTo from './components/TawkTo'
 import Home from './pages/Home'
 import Login from './pages/Login'
 import Register from './pages/Register'
@@ -36,6 +37,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <TawkTo />
       <Header />
       <main className="flex-1">
         <Routes>

@@ -14,14 +14,14 @@ function RevealCard({ children, delay = 0 }) {
 }
 
 const REASONS = [
-  { icon: ShieldCheck, title: 'Fully Regulated', desc: 'Authorized by FSRC Saint Lucia. We operate under strict international financial standards ensuring your funds are always protected.' },
-  { icon: Lock, title: 'Segregated Funds', desc: 'Client funds are held in separate accounts at top-tier banks, never mixed with company operational capital.' },
-  { icon: Zap, title: 'Ultra-Fast Execution', desc: 'Average execution speed of 12ms. No requotes, no delays — pure market access with the best available price.' },
-  { icon: DollarSign, title: 'Competitive Pricing', desc: 'Raw spreads from 0.0 pips on major pairs. Transparent commission structure with no hidden fees.' },
-  { icon: BarChart2, title: 'Advanced Platforms', desc: 'Trade on MetaTrader 5, our proprietary Web Trader, and mobile apps. All synced in real-time.' },
-  { icon: Globe, title: 'Multi-Asset Portfolio', desc: 'Access Forex, Gold, Silver, Oil, Indices, Shares, and Cryptocurrency CFDs on one account.' },
-  { icon: Headphones, title: '24/5 Expert Support', desc: 'Multilingual support team available via live chat, WhatsApp, and email — always ready to help.' },
-  { icon: TrendingUp, title: 'Educational Resources', desc: 'Free webinars, video tutorials, market analysis, and an economic calendar to sharpen your edge.' },
+  { icon: ShieldCheck, title: 'Strong Regulation & Transparency', desc: 'Fexness operates under regulatory licenses across different jurisdictions, ensuring compliance, client protection, and transparent business practices.' },
+  { icon: Zap, title: 'Fast & Reliable Deposits & Withdrawals', desc: 'Fexness is known for fast deposit & withdrawal processing, with many kinds of payment methods offering instant or near-instant transactions, subject to payment provider conditions.' },
+  { icon: DollarSign, title: 'Competitive Trading Conditions', desc: 'Tight spreads, flexible leverage options, low minimum deposits, and multiple account types for different trading styles.' },
+  { icon: BarChart2, title: 'Advanced Trading Platforms', desc: 'Trade on industry-leading platforms with powerful charting tools, automated trading (EAs), and real-time market execution.' },
+  { icon: Globe, title: 'Wide Range of Instruments', desc: 'Access a broad selection of markets including Forex currency pairs, Commodities, Indices, Stocks, and Cryptocurrencies (Where permitted by regulation).' },
+  { icon: Lock, title: 'Transparent Pricing', desc: 'No hidden fees, clear swap policies, and detailed contract specifications available to clients.' },
+  { icon: Headphones, title: '24/7 Customer Support', desc: 'Multilingual support is available to assist traders across different time zones.' },
+  { icon: TrendingUp, title: 'Suitable for All Trader Levels', desc: 'Whether you are a beginner or an experienced professional, Fexness offers account types and tools designed to meet various trading strategies.' },
 ]
 
 const COMPARE = [
@@ -41,9 +41,9 @@ export default function WhyUs() {
   return (
     <div>
       <PageHero
-        title="Why Choose Fexness"
-        subtitle="Trusted by 200,000+ traders worldwide. Here's what sets us apart."
-        image="https://picsum.photos/seed/why-us/1200/600"
+        title="Why Choose Fexness?"
+        subtitle="Choosing the right broker is one of the most important decisions for any trader."
+        image="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=600&fit=crop"
       />
 
       {/* Reasons Grid */}

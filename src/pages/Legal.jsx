@@ -8,29 +8,43 @@ const TABS = [
     key: 'risk',
     label: 'Risk Disclosure',
     icon: AlertCircle,
-    content: `RISK DISCLOSURE STATEMENT
+    content: `RISK STATEMENT
 
-Trading in foreign exchange ("Forex"), CFDs, commodities, indices, shares, and other financial instruments involves significant risk of loss and may not be suitable for all investors. 
+An investment in derivatives may mean investors may lose an amount even greater than their original investment. Anyone wishing to invest in any of the products mentioned in Fexness should seek their own financial or professional advice. Trading of securities, Forex, stock market, commodities, options and futures may not be suitable for everyone and involves the risk of losing part or all of your money. 
 
-1. GENERAL RISKS
-The high degree of leverage available in Forex and CFD trading can work against you as well as for you. Before deciding to trade, you should carefully consider your investment objectives, level of experience, and risk appetite.
+Trading in the financial markets has large potential rewards, but also large potential risk. You must be aware of the risks and be willing to accept them in order to invest in the markets. Don't invest and trade with money which you can't afford to lose. Forex Trading are not allowed in some countries, before investing your money, make sure whether your country is allowing this or not.
 
-2. LEVERAGE RISK
-Leveraged trading means that a small movement in the market price of an instrument can result in significant profits or losses relative to your initial deposit. Losses can exceed your initial deposit.
+You are strongly advised to obtain independent financial, legal and tax advice before proceeding with any currency or spot metals trade. Nothing in this site should be read or construed as constituting advice on the part of Fexness Limited or any of its affiliates, directors, officers or employees.
 
-3. MARKET RISK
-Financial markets are subject to rapid and unpredictable price movements driven by economic, political, and other factors. These may result in prices moving against your position.
+RESTRICTED REGIONS
+Fexness Limited does not provide services for citizens/residents of USA, Venezuela, Ukraine, Iran, Cuba, Myanmar, North Korea, Sudan. The services of Fexness Limited are not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.
 
-4. TECHNOLOGY RISK
-Online trading is subject to technology risks including internet connectivity issues, system failures, and cyber-attacks which may affect the execution of orders.
+Information on this site is not directed at residents in any country or jurisdiction where such distribution or use would be contrary to local law or regulations.`,
+  },
+  {
+    key: 'company',
+    label: 'Company Information',
+    icon: FileText,
+    content: `COMPANY REGISTRATION
 
-5. COUNTERPARTY RISK
-Fexness acts as the counterparty to all client trades. All client funds are held in segregated accounts to mitigate counterparty risk.
+Fexness Limited is Registered in ANGUILLA Registry of (ARCA). 
 
-6. PSYCHOLOGICAL RISK
-Trading can be psychologically stressful. Emotional decisions often lead to poor trading outcomes. Always follow a trading plan.
+Registration No: A000000352
 
-You should not invest money that you cannot afford to lose. Past performance of any trading system or strategy is not necessarily indicative of future results.`,
+Address: Anguilla, No. 5 Alloyd Building, Crocus Hill, AI-2640
+
+The objects of the Company are all subject matters not forbidden by International Business Companies (Amendment and Consolidation) Act, of the Laws of Anguilla, in particular but not exclusively all commercial, financial, lending, borrowing, trading, service activities and the participation in other enterprises as well as to provide brokerage, training and managed account services in currencies, commodities, indexes, CFDs and leveraged financial instruments.
+
+IMPORTANT TRADING POLICY UPDATE
+At Fexness, we allow High-Frequency Trading (HFT), arbitrage, or scalping with a duration of less than 180 seconds. However, we do permit scalping trades that last longer than 180 seconds and so, provided the client holds the position. Low spreads and zero commission depends on the product and account type. We provide an execution-only service. We do not provide investment advice or management services.
+
+IMPORTANT KYC UPDATE
+Users are allowed only one account per KYC. Creating multiple accounts under the same KYC is strictly prohibited. Please comply to avoid any issues!!
+
+In compliance with regulatory guidelines, we are not offering our services to clients or citizens residing in the United States, Valenzuela, Ukraine, Iran, Cuba, Myanmar, North Korea, Sudan.
+
+FRAUD WARNING
+It has come our attention that fraudulent websites are impersonating our brand using fake or lookalike domains. Please note that we do not promote any get rich quick schemes. Our official website is fexness.com. Stay vigilant & verify website URLs before engaging with any platform.`,
   },
   {
     key: 'terms',
@@ -44,32 +58,32 @@ Last Updated: January 2024
 By accessing and using Fexness's services, you confirm that you have read, understood, and agree to be bound by these Terms and Conditions.
 
 2. ELIGIBILITY
-You must be at least 18 years of age and legally capable of entering into a binding agreement. Services are not available to residents of restricted jurisdictions.
+You must be at least 18 years of age and legally capable of entering into a binding agreement. Services are not available to residents of restricted jurisdictions including USA, Venezuela, Ukraine, Iran, Cuba, Myanmar, North Korea, and Sudan.
 
 3. ACCOUNT REGISTRATION
 You are responsible for maintaining the confidentiality of your account credentials. You agree to notify us immediately of any unauthorized use of your account.
 
-4. TRADING CONDITIONS
-- Minimum deposit: $10 for most account types
+4. KYC POLICY
+Users are allowed only one account per KYC. Creating multiple accounts under the same KYC is strictly prohibited.
+
+5. TRADING CONDITIONS
 - All trades are executed at the best available market price
 - We reserve the right to reject any order at our discretion
-- Stop-out level: 20% of used margin
+- Low spreads and zero commission depend on the product and account type
+- We provide an execution-only service and do not provide investment advice
 
-5. PROHIBITED ACTIVITIES
-The following are strictly prohibited:
-- Arbitrage trading exploiting server latency
-- Use of any automated software without prior written approval
-- Multiple accounts for the purpose of bonus abuse
-- Any form of market manipulation
+6. TRADING POLICIES
+- High-Frequency Trading (HFT), arbitrage, or scalping with duration less than 180 seconds is allowed
+- Scalping trades lasting longer than 180 seconds are permitted provided the client holds the position
 
-6. INTELLECTUAL PROPERTY
+7. INTELLECTUAL PROPERTY
 All content on Fexness platforms is proprietary. Reproduction without express written consent is prohibited.
 
-7. LIMITATION OF LIABILITY
+8. LIMITATION OF LIABILITY
 Fexness shall not be liable for any indirect, incidental, or consequential damages arising from the use of our services.
 
-8. GOVERNING LAW
-These terms are governed by the laws of Saint Lucia.`,
+9. GOVERNING LAW
+These terms are governed by the laws of Anguilla.`,
   },
   {
     key: 'privacy',
@@ -101,13 +115,13 @@ We do not sell your personal data. We may share data with:
 - Technology partners under strict confidentiality agreements
 
 4. DATA SECURITY
-We use industry-standard encryption (TLS 1.3) and security protocols. Access to personal data is restricted to authorized personnel.
+We use industry-standard encryption and security protocols. Access to personal data is restricted to authorized personnel.
 
 5. DATA RETENTION
-We retain personal data for a minimum of 5 years after account closure as required by financial regulations.
+We retain personal data for a minimum of 5-7 years after account closure as required by financial regulations.
 
 6. YOUR RIGHTS
-You have the right to access, correct, or request deletion of your personal data, subject to legal retention requirements. Contact: privacy@fexness.com
+You have the right to access, correct, or request deletion of your personal data, subject to legal retention requirements.
 
 7. COOKIES
 We use essential and analytics cookies. You can manage cookie preferences in your browser settings.`,
@@ -116,38 +130,99 @@ We use essential and analytics cookies. You can manage cookie preferences in you
     key: 'aml',
     label: 'AML Policy',
     icon: Shield,
-    content: `ANTI-MONEY LAUNDERING (AML) & COUNTER-TERRORISM FINANCING (CTF) POLICY
+    content: `ANTI-MONEY LAUNDERING (AML) POLICY
 
-1. COMMITMENT
-Fexness is committed to preventing money laundering and terrorism financing. We implement robust AML/CTF controls in compliance with international standards.
+This Anti-Money Laundering (AML) Policy outlines the procedures and internal controls implemented by Fexness to prevent money laundering, terrorist financing, fraud, and other financial crimes in connection with its forex trading services.
 
-2. CUSTOMER DUE DILIGENCE (CDD)
-All clients must undergo identity verification before accessing our services:
-- Government-issued photo ID
-- Proof of address dated within 90 days
-- Source of funds declaration for deposits exceeding $10,000
+COMPLIANCE COMMITMENT
+Fexness is committed to full compliance with applicable AML and Counter-Terrorist Financing (CTF) laws and regulations in the jurisdictions where it operates. Fexness complies with all applicable AML/CTF legislation and regulatory requirements, including those imposed by its licensing authority depending on jurisdiction.
 
-3. ENHANCED DUE DILIGENCE (EDD)
-EDD is applied to:
-- Politically Exposed Persons (PEPs)
-- High-value transactions
-- Clients from high-risk jurisdictions
-- Complex or unusual transaction patterns
+DEFINITIONS
+Money Laundering – The process of concealing the origin of illegally obtained funds to make them appear legitimate.
+Terrorist Financing – The provision or collection of funds with the intention that they be used to support terrorist activities.
+Politically Exposed Person (PEP) – An individual who holds or has held a prominent public function.
 
-4. SUSPICIOUS ACTIVITY MONITORING
-Our compliance system monitors all transactions for suspicious patterns including:
-- Rapid fund cycling (deposit and immediate withdrawal without trading)
-- Structuring (breaking large transactions into smaller ones)
-- Transactions with no apparent business purpose
+RISK-BASED APPROACH
+Fexness applies a risk-based approach to AML compliance by:
+- Assessing customer risk profiles
+- Monitoring geographic risk
+- Evaluating transaction patterns
+- Applying enhanced due diligence where necessary
+Clients are categorized as Low, Medium, or High risk.
 
-5. REPORTING OBLIGATIONS
-Fexness is obligated to report suspicious transactions to relevant financial intelligence units without disclosing such reports to clients.
+CUSTOMER DUE DILIGENCE (CDD)
+Before establishing a business relationship, Fexness shall:
 
-6. RECORD KEEPING
-Transaction records and client identification documents are retained for a minimum of 5 years.
+1. Individual Clients
+- Obtain full name, date of birth, nationality
+- Verify identity using government-issued ID
+- Obtain proof of residential address
+- Conduct sanctions and PEP screening
+- Collect source of funds information where required
 
-7. EMPLOYEE TRAINING
-All Fexness employees receive regular AML/CTF training and are aware of their obligations under applicable laws.`,
+2. Corporate Clients
+- Verify company registration documents
+- Identify beneficial owners (25%+ ownership or control)
+- Verify directors and authorized signatories
+- Understand nature of business activities
+
+ENHANCED DUE DILIGENCE (EDD)
+EDD procedures are applied when:
+- The client is a PEP
+- The client is from a high-risk jurisdiction
+- Transactions are unusually large or complex
+- Suspicious behavior is detected
+
+EDD measures may include:
+- Additional source of wealth verification
+- Senior management approval
+- Increased transaction monitoring
+
+ONGOING MONITORING
+Fexness continuously monitors:
+- Trading activity
+- Deposit and withdrawal patterns
+- Account behavior inconsistencies
+- Multiple account connections
+Automated systems and manual reviews are used to detect suspicious activity.
+
+SUSPICIOUS ACTIVITY REPORTING (SAR)
+If suspicious activity is identified:
+- The matter is escalated to the Fexness employed AML Compliance Officer
+- An internal investigation is conducted
+- Where required, a Suspicious Activity Report (SAR) is filed with the relevant authority
+Employees are strictly prohibited from "tipping off" clients about investigations.
+
+RECORD KEEPING
+Fexness retains the following records for a minimum of 5–7 years (or as required by regulation):
+- Client identification documents
+- Transaction records
+- Internal reports and SAR documentation
+- Communication records
+
+EMPLOYEE TRAINING
+All employees of Fexness will receive:
+- AML/CTF training upon hiring
+- Annual refresher training
+- Guidance on identifying suspicious activity
+Training records are maintained.
+
+AML COMPLIANCE OFFICER
+Fexness appoints a qualified AML Compliance Officer responsible for:
+- Implementing AML procedures
+- Monitoring compliance
+- Reporting to regulatory authorities
+- Updating AML policies
+
+SANCTIONS COMPLIANCE
+Fexness screens clients against:
+- International sanctions lists
+- Politically exposed persons (PEP) databases
+- Adverse media sources
+Accounts linked to sanctioned individuals or entities will be rejected or frozen in accordance with legal requirements.
+
+POLICY REVIEW
+This AML Policy is reviewed by Fexness at least annually or whenever there are significant regulatory changes.`,
   },
 ]
 

@@ -12,7 +12,7 @@ const TRUST_BADGES = [
 const TRADING_INSTRUMENTS = [
   { 
     icon: '💱',
-    image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=400&h=300&fit=crop',
     title: 'Forex', 
     desc: 'Trade major, minor, and select exotic currency pairs with competitive spreads and fast execution.',
     buttonText: 'Trade Forex',
@@ -28,7 +28,7 @@ const TRADING_INSTRUMENTS = [
   },
   { 
     icon: '⚡',
-    image: 'https://images.unsplash.com/photo-1545259742-24c4e6762850?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1578403881967-084f9885be74?w=400&h=300&fit=crop',
     title: 'Energies', 
     desc: 'Trade crude oil and other energy derivatives with reliable execution and real-time pricing.',
     buttonText: 'Trade Energies',
@@ -358,7 +358,340 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Our Story Section */}
+      <section className="py-20 bg-gradient-to-br from-orange-50 via-white to-yellow-50 relative overflow-hidden">
+        {/* Animated Background Elements */}
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute top-20 left-10 w-72 h-72 bg-gold-400 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-96 h-96 bg-orange-300 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
+        </div>
+        
+        <div className="max-w-7xl mx-auto px-4 relative z-10">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-16">
+              <div className="inline-block mb-4">
+                <span className="px-6 py-2 bg-gradient-to-r from-gold-400 to-orange-400 text-white rounded-full text-sm font-bold shadow-lg">
+                  🌟 About Fexness
+                </span>
+              </div>
+              <h2 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-gold-600 to-gray-900 bg-clip-text text-transparent">
+                Our Story
+              </h2>
+              <div className="w-32 h-1.5 bg-gradient-to-r from-transparent via-gold-500 to-transparent mx-auto rounded-full"></div>
+            </div>
+            
+            <div className="grid md:grid-cols-3 gap-6 mb-12">
+              {/* Stat 1 */}
+              <div className="group text-center p-8 bg-white rounded-3xl border-2 border-gold-200 hover:border-gold-500 transition-all duration-300 hover:scale-105 hover:shadow-2xl shadow-lg">
+                <div className="text-5xl font-black bg-gradient-to-br from-gold-500 to-orange-500 bg-clip-text text-transparent mb-3 group-hover:scale-110 transition-transform">175+</div>
+                <div className="text-gray-700 font-semibold">Countries Served</div>
+              </div>
+              {/* Stat 2 */}
+              <div className="group text-center p-8 bg-white rounded-3xl border-2 border-gold-200 hover:border-gold-500 transition-all duration-300 hover:scale-105 hover:shadow-2xl shadow-lg">
+                <div className="text-5xl font-black bg-gradient-to-br from-gold-500 to-orange-500 bg-clip-text text-transparent mb-3 group-hover:scale-110 transition-transform">100+</div>
+                <div className="text-gray-700 font-semibold">Trading Instruments</div>
+              </div>
+              {/* Stat 3 */}
+              <div className="group text-center p-8 bg-white rounded-3xl border-2 border-gold-200 hover:border-gold-500 transition-all duration-300 hover:scale-105 hover:shadow-2xl shadow-lg">
+                <div className="text-5xl font-black bg-gradient-to-br from-gold-500 to-orange-500 bg-clip-text text-transparent mb-3 group-hover:scale-110 transition-transform">24/7</div>
+                <div className="text-gray-700 font-semibold">Customer Support</div>
+              </div>
+            </div>
+            
+            <div className="space-y-6 leading-relaxed">
+              <div className="bg-white rounded-3xl p-8 border-2 border-gold-200 hover:border-gold-500 transition-all duration-300 hover:shadow-2xl shadow-lg">
+                <p className="text-lg md:text-xl text-gray-800 leading-relaxed">
+                  Founded with a vision to <span className="text-gold-600 font-bold">democratize forex trading</span>, Fexness emerged from a simple belief: every trader deserves access to professional-grade tools, transparent pricing, and exceptional support.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-3xl p-8 border-2 border-gold-200 hover:border-gold-500 transition-all duration-300 hover:shadow-2xl shadow-lg">
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  What started as a mission to provide zero-spread trading has evolved into a <span className="text-gold-600 font-bold">comprehensive trading ecosystem</span>. Today, we serve traders across 175 countries, offering access to 100+ instruments with lightning-fast execution and industry-leading technology.
+                </p>
+              </div>
+              
+              <div className="bg-white rounded-3xl p-8 border-2 border-gold-200 hover:border-gold-500 transition-all duration-300 hover:shadow-2xl shadow-lg">
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Our journey is driven by <span className="text-gold-600 font-bold">innovation, integrity, and an unwavering commitment</span> to our traders' success. Fexness don't just facilitate trades—we empower traders to reach their full potential.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Choose Fexness */}
+      <section className="py-20 bg-gradient-to-b from-white via-gray-50 to-white">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-16">
+            <div className="inline-block mb-4 animate-bounce">
+              <span className="px-4 py-2 bg-gold-500 text-white rounded-full text-sm font-semibold shadow-lg">
+                ⭐ Why Fexness?
+              </span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              Why Choose <span className="text-gold-600">Fexness</span>?
+            </h2>
+            <p className="text-gray-600 max-w-3xl mx-auto text-lg">
+              Choosing the right broker is one of the most important decisions for any trader. Here's why many traders worldwide choose Fexness:
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Reason 1 */}
+            <div className="group bg-gradient-to-br from-white to-gray-50 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200 hover:border-gold-500 hover:-translate-y-2">
+              <div className="flex flex-col items-center text-center gap-4">
+                <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-gold-400 to-gold-600 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg group-hover:scale-110 transition-transform duration-300">
+                  1
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-gold-600 transition-colors">Strong Regulation & Transparency</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Fexness operates under regulatory licenses across different jurisdictions, ensuring compliance, client protection, and transparent business practices.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Reason 2 */}
+            <div className="group bg-gradient-to-br from-white to-gray-50 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200 hover:border-gold-500 hover:-translate-y-2">
+              <div className="flex flex-col items-center text-center gap-4">
+                <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-gold-400 to-gold-600 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg group-hover:scale-110 transition-transform duration-300">
+                  2
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-gold-600 transition-colors">Fast & Reliable Deposits & Withdrawals</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Fexness is known for fast deposit & withdrawal processing, with many kinds of payment methods offering instant or near-instant transactions, subject to payment provider conditions.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Reason 3 */}
+            <div className="group bg-gradient-to-br from-white to-gray-50 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200 hover:border-gold-500 hover:-translate-y-2">
+              <div className="flex flex-col items-center text-center gap-4">
+                <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-gold-400 to-gold-600 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg group-hover:scale-110 transition-transform duration-300">
+                  3
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-gold-600 transition-colors">Competitive Trading Conditions</h3>
+                  <ul className="text-gray-600 space-y-2 text-left inline-block">
+                    <li className="flex items-center gap-2 hover:text-gold-600 transition-colors">
+                      <span className="text-gold-500 text-lg">✓</span> Tight spreads
+                    </li>
+                    <li className="flex items-center gap-2 hover:text-gold-600 transition-colors">
+                      <span className="text-gold-500 text-lg">✓</span> Flexible leverage options
+                    </li>
+                    <li className="flex items-center gap-2 hover:text-gold-600 transition-colors">
+                      <span className="text-gold-500 text-lg">✓</span> Low minimum deposits
+                    </li>
+                    <li className="flex items-center gap-2 hover:text-gold-600 transition-colors">
+                      <span className="text-gold-500 text-lg">✓</span> Multiple account types
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* Reason 4 */}
+            <div className="group bg-gradient-to-br from-white to-gray-50 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200 hover:border-gold-500 hover:-translate-y-2">
+              <div className="flex flex-col items-center text-center gap-4">
+                <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-gold-400 to-gold-600 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg group-hover:scale-110 transition-transform duration-300">
+                  4
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-gold-600 transition-colors">Advanced Trading Platforms</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Trade on industry-leading platforms. These platforms offer powerful charting tools, automated trading (EAs), and real-time market execution.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Reason 5 */}
+            <div className="group bg-gradient-to-br from-white to-gray-50 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200 hover:border-gold-500 hover:-translate-y-2">
+              <div className="flex flex-col items-center text-center gap-4">
+                <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-gold-400 to-gold-600 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg group-hover:scale-110 transition-transform duration-300">
+                  5
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-gold-600 transition-colors">Wide Range of Instruments</h3>
+                  <p className="text-gray-600 mb-3 leading-relaxed">Access a broad selection of markets including:</p>
+                  <ul className="text-gray-600 space-y-1 text-sm text-left inline-block">
+                    <li className="flex items-center gap-2 hover:text-gold-600 transition-colors">
+                      <span className="text-gold-500 text-lg">•</span> Forex currency pairs
+                    </li>
+                    <li className="flex items-center gap-2 hover:text-gold-600 transition-colors">
+                      <span className="text-gold-500 text-lg">•</span> Commodities
+                    </li>
+                    <li className="flex items-center gap-2 hover:text-gold-600 transition-colors">
+                      <span className="text-gold-500 text-lg">•</span> Indices
+                    </li>
+                    <li className="flex items-center gap-2 hover:text-gold-600 transition-colors">
+                      <span className="text-gold-500 text-lg">•</span> Stocks
+                    </li>
+                    <li className="flex items-center gap-2 hover:text-gold-600 transition-colors">
+                      <span className="text-gold-500 text-lg">•</span> Cryptocurrencies
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* Reason 6 */}
+            <div className="group bg-gradient-to-br from-white to-gray-50 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200 hover:border-gold-500 hover:-translate-y-2">
+              <div className="flex flex-col items-center text-center gap-4">
+                <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-gold-400 to-gold-600 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg group-hover:scale-110 transition-transform duration-300">
+                  6
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-gold-600 transition-colors">Transparent Pricing</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    No hidden fees, clear swap policies, and detailed contract specifications available to clients.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Reason 7 */}
+            <div className="group bg-gradient-to-br from-white to-gray-50 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200 hover:border-gold-500 hover:-translate-y-2">
+              <div className="flex flex-col items-center text-center gap-4">
+                <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-gold-400 to-gold-600 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg group-hover:scale-110 transition-transform duration-300">
+                  7
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-gold-600 transition-colors">24/7 Customer Support</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Multilingual support is available to assist traders across different time zones.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Reason 8 */}
+            <div className="group bg-gradient-to-br from-white to-gray-50 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200 hover:border-gold-500 hover:-translate-y-2">
+              <div className="flex flex-col items-center text-center gap-4">
+                <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-gold-400 to-gold-600 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg group-hover:scale-110 transition-transform duration-300">
+                  8
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-gold-600 transition-colors">Suitable for All Trader Levels</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Whether you are a beginner or an experienced professional, Fexness offers account types and tools designed to meet various trading strategies.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Risk Disclosure & Legal Information */}
+      <section className="py-20 bg-gradient-to-b from-white to-gray-50">
+        <div className="max-w-7xl mx-auto px-4">
+          {/* Section Header */}
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Important Information & Disclosures
+            </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Please read the following carefully before trading with Fexness Limited
+            </p>
+          </div>
+
+          {/* Risk Warning - Prominent Card */}
+          <div className="bg-gradient-to-br from-yellow-50 to-orange-50 border-2 border-yellow-400 rounded-3xl p-8 mb-8 shadow-lg">
+            <div className="flex items-start gap-4">
+              <div className="flex-shrink-0 w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center text-2xl">
+                ⚠️
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Risk Warning</h3>
+                <div className="text-gray-700 leading-relaxed space-y-3">
+                  <p>
+                    An investment in derivatives may mean investors may lose an amount even greater than their original investment. Anyone wishing to invest in any of the products mentioned in Fexness should seek their own financial or professional advice. Trading of securities, Forex, stock market, commodities, options and futures may not be suitable for everyone and involves the risk of losing part or all of your money.
+                  </p>
+                  <p>
+                    Trading in the financial markets has large potential rewards, but also large potential risk. You must be aware of the risks and be willing to accept them in order to invest in the markets. Don't invest and trade with money which you can't afford to lose. Forex Trading are not allowed in some countries, before investing your money, make sure whether your country is allowing this or not.
+                  </p>
+                  <p>
+                    You are strongly advised to obtain independent financial, legal and tax advice before proceeding with any currency or spot metals trade. Nothing in this site should be read or construed as constituting advice on the part of Fexness Limited or any of its affiliates, directors, officers or employees.
+                  </p>
+                  <div className="bg-yellow-100 border-l-4 border-yellow-600 p-4 rounded mt-4">
+                    <p className="font-semibold text-gray-900">
+                      <strong>Restricted Regions:</strong> Fexness Limited does not provide services for citizens/residents of USA, Venezuela, Ukraine, Iran, Cuba, Myanmar, North Korea, Sudan. The services of Fexness Limited are not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Company Info & Policies Grid */}
+          <div className="grid md:grid-cols-2 gap-8 mb-8">
+            {/* Company Registration Card */}
+            <div className="bg-white border border-gray-200 rounded-3xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-10 h-10 bg-gold-500 rounded-full flex items-center justify-center text-white text-xl">
+                  🏢
+                </div>
+                <h3 className="text-xl font-bold text-gray-900">Company Registration</h3>
+              </div>
+              <div className="text-gray-700 leading-relaxed space-y-3">
+                <p>
+                  <strong className="text-gray-900">Fexness Limited</strong> is Registered in ANGUILLA Registry of (ARCA).
+                </p>
+                <div className="bg-gray-50 rounded-lg p-4 space-y-2">
+                  <p className="flex items-center gap-2">
+                    <span className="font-semibold text-gray-900">Registration No:</span>
+                    <span className="text-gold-600 font-bold">A000000352</span>
+                  </p>
+                  <p className="flex items-start gap-2">
+                    <span className="font-semibold text-gray-900 flex-shrink-0">Address:</span>
+                    <span>Anguilla, No. 5 Alloyd Building, Crocus Hill, AI-2640</span>
+                  </p>
+                </div>
+                <p className="text-sm">
+                  The objects of the Company are all subject matters not forbidden by International Business Companies (Amendment and Consolidation) Act, of the Laws of Anguilla, in particular but not exclusively all commercial, financial, lending, borrowing, trading, service activities and the participation in other enterprises as well as to provide brokerage, training and managed account services in currencies, commodities, indexes, CFDs and leveraged financial instruments.
+                </p>
+              </div>
+            </div>
+
+            {/* Important Policies Card */}
+            <div className="bg-white border border-gray-200 rounded-3xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-10 h-10 bg-gold-500 rounded-full flex items-center justify-center text-white text-xl">
+                  📋
+                </div>
+                <h3 className="text-xl font-bold text-gray-900">Important Policy Updates</h3>
+              </div>
+              <div className="text-gray-700 leading-relaxed space-y-4">
+                <div className="border-l-4 border-gold-500 pl-4">
+                  <p className="font-bold text-gray-900 mb-2">Trading Policy:</p>
+                  <p className="text-sm">
+                    At Fexness, we allow High-Frequency Trading (HFT), arbitrage, or scalping with a duration of less than 180 seconds. However, we do permit scalping trades that last longer than 180 seconds and so, provided the client holds the position. Low spreads and zero commission depends on the product and account type. We provide an execution-only service. We do not provide investment advice or management services.
+                  </p>
+                </div>
+                <div className="border-l-4 border-gold-500 pl-4">
+                  <p className="font-bold text-gray-900 mb-2">KYC Policy:</p>
+                  <p className="text-sm">
+                    Users are allowed only one account per KYC. Creating multiple accounts under the same KYC is strictly prohibited. Please comply to avoid any issues!!
+                  </p>
+                </div>
+                <div className="border-l-4 border-red-500 pl-4">
+                  <p className="font-bold text-gray-900 mb-2">⚠️ Fraud Warning:</p>
+                  <p className="text-sm">
+                    It has come our attention that fraudulent websites are impersonating our brand using fake or lookalike domains. Please note that we do not promote any get rich quick schemes. Our official website is <strong className="text-gold-600">fexness.com</strong>. Stay vigilant & verify website URLs before engaging with any platform.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }
-

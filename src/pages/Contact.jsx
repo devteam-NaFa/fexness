@@ -23,7 +23,7 @@ export default function Contact() {
             </form>
           </div>
           <div className="space-y-4">
-            {[{icon:MapPin,title:'London Office',body:'123 Financial District, Canary Wharf, London E14 5AB, United Kingdom'},{icon:MapPin,title:'New York Office',body:'456 Wall Street, Financial District, New York, NY 10005, USA'},{icon:Mail,title:'Email',body:'support@example.com'},{icon:Clock,title:'Business Hours',body:'Mon–Fri: 9 AM – 6 PM GMT | Weekends: Email only'}].map(({icon:Icon,title,body},i)=>(
+            {[{icon:MapPin,title:'London Office',body:'123 Financial District, Canary Wharf, London E14 5AB, United Kingdom'},{icon:MapPin,title:'New York Office',body:'456 Wall Street, Financial District, New York, NY 10005, USA'},{icon:Mail,title:'Email',body:'support@fexness.com'},{icon:Clock,title:'Business Hours',body:'Mon–Fri: 9 AM – 6 PM GMT | Weekends: Email only'}].map(({icon:Icon,title,body},i)=>(
               <div key={i} className="bg-gray-50 rounded-2xl p-5 flex gap-4">
                 <div className="p-3 rounded-xl bg-gold-100 text-gold-600 flex-shrink-0"><Icon className="w-5 h-5" /></div>
                 <div><h4 className="font-bold">{title}</h4><p className="text-gray-500 text-sm mt-0.5">{body}</p></div>

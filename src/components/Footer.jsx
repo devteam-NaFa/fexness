@@ -122,27 +122,39 @@ export default function Footer() {
             <Mail className="w-4 h-4 text-gold-400 flex-shrink-0 mt-0.5" />
             <div>
               <div className="text-white text-xs font-bold mb-0.5">Email Support</div>
-              <div className="text-gray-400 text-xs">support@example.com</div>
+              <div className="text-gray-400 text-xs">support@fexness.com</div>
             </div>
           </div>
         </div>
 
         {/* Risk Warning */}
-        <div className="bg-gray-800 rounded-xl p-5 mb-8">
-          <h4 className="text-yellow-400 font-bold text-xs mb-2">⚠ Risk Warning</h4>
-          <p className="text-gray-400 text-xs leading-relaxed">
+        <div className="bg-gradient-to-r from-yellow-900/20 to-orange-900/20 border border-yellow-600/30 rounded-xl p-5 mb-8">
+          <h4 className="text-yellow-400 font-bold text-sm mb-2 flex items-center gap-2">
+            <span className="text-lg">⚠️</span> Risk Warning
+          </h4>
+          <p className="text-gray-300 text-xs leading-relaxed">
             Trading Forex and CFDs involves significant risk of loss and may not be suitable for all investors. Leverage can work against you. You may lose more than your initial investment. Please ensure you fully understand the risks involved and seek independent financial advice if necessary. Past performance is not indicative of future results.
           </p>
         </div>
 
         {/* Bottom Bar */}
-        <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-500">
-          <p>© {new Date().getFullYear()} Fexness Ltd. All rights reserved. Regulated & Licensed — Registration No. 2024-XXXXX.</p>
-          <div className="flex gap-4">
-            <Link to="/legal" className="hover:text-gold-400 transition-colors">Privacy</Link>
-            <Link to="/legal" className="hover:text-gold-400 transition-colors">Terms</Link>
-            <Link to="/legal" className="hover:text-gold-400 transition-colors">Risk</Link>
-            <Link to="/legal" className="hover:text-gold-400 transition-colors">AML</Link>
+        <div className="border-t border-gray-800 pt-6">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4 mb-4">
+            <div className="text-xs text-gray-400">
+              <p className="flex flex-wrap items-center justify-center md:justify-start gap-2">
+                <span>© {new Date().getFullYear()} <strong className="text-white">Fexness Limited</strong>. All rights reserved.</span>
+                <span className="hidden md:inline text-gray-600">|</span>
+                <span>Registration No. <strong className="text-gold-400">A000000352</strong></span>
+                <span className="hidden md:inline text-gray-600">|</span>
+                <span>Regulated & Licensed in <strong className="text-white">Anguilla</strong></span>
+              </p>
+            </div>
+            <div className="flex gap-4 text-xs">
+              <Link to="/legal" className="text-gray-400 hover:text-gold-400 transition-colors">Privacy</Link>
+              <Link to="/legal" className="text-gray-400 hover:text-gold-400 transition-colors">Terms</Link>
+              <Link to="/legal" className="text-gray-400 hover:text-gold-400 transition-colors">Risk</Link>
+              <Link to="/legal" className="text-gray-400 hover:text-gold-400 transition-colors">AML</Link>
+            </div>
           </div>
         </div>
       </div>

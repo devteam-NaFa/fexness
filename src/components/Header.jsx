@@ -106,7 +106,7 @@ export default function Header() {
     <header className={`sticky top-0 z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-md' : 'bg-white/95 backdrop-blur border-b border-gray-100'}`}>
       {/* Top bar */}
       <div className="bg-gradient-to-r from-gold-500 to-gold-600 text-gray-900 text-xs py-1.5 px-4 hidden sm:flex justify-between items-center font-semibold">
-        <span>📧 support@example.com &nbsp;|&nbsp; 📍 London, United Kingdom</span>
+        <span>📧 support@fexness.com &nbsp;|&nbsp; 📍 London, United Kingdom</span>
         <span>⏰ Support: 24/7 live chat &amp; email</span>
       </div>
 
@@ -125,8 +125,8 @@ export default function Header() {
 
           {/* CTA buttons */}
           <div className="hidden lg:flex items-center gap-2">
-            <Link to="/login" className="px-4 py-2 rounded-lg text-sm font-semibold btn-outline">Sign In</Link>
-            <Link to="/register" className="px-4 py-2 rounded-lg btn-primary text-sm font-semibold">Open Account</Link>
+            <Link to="/login" className="px-4 py-2 rounded-lg text-sm font-semibold border-2 border-[#d3a21a] text-[#d3a21a] hover:bg-[#d3a21a] hover:text-white transition-colors">Sign In</Link>
+            <Link to="/register" className="px-4 py-2 rounded-lg text-sm font-semibold bg-[#d3a21a] text-white hover:bg-[#b8901a] transition-colors">Open Account</Link>
           </div>
 
           {/* Mobile toggle */}
@@ -165,8 +165,8 @@ export default function Header() {
               </div>
             ))}
             <div className="pt-4 flex flex-col gap-2">
-              <Link to="/login" className="btn-outline text-center py-2 rounded-lg text-sm font-semibold">Sign In</Link>
-              <Link to="/register" className="btn-primary text-center py-2 rounded-lg text-sm font-semibold">Open Account</Link>
+              <Link to="/login" className="border-2 border-[#d3a21a] text-[#d3a21a] hover:bg-[#d3a21a] hover:text-white transition-colors text-center py-2 rounded-lg text-sm font-semibold">Sign In</Link>
+              <Link to="/register" className="bg-[#d3a21a] text-white hover:bg-[#b8901a] transition-colors text-center py-2 rounded-lg text-sm font-semibold">Open Account</Link>
             </div>
           </div>
         </div>
